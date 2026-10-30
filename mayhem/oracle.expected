@@ -1,0 +1,19 @@
+size 1: round=16 alloc_size=16 owned=1 start_ok=1 span=15
+size 8: round=16 alloc_size=16 owned=1 start_ok=1 span=15
+size 16: round=16 alloc_size=16 owned=1 start_ok=1 span=15
+size 17: round=32 alloc_size=32 owned=1 start_ok=1 span=31
+size 100: round=112 alloc_size=112 owned=1 start_ok=1 span=111
+size 1000: round=1024 alloc_size=1024 owned=1 start_ok=1 span=1023
+size 4096: round=4096 alloc_size=4096 owned=1 start_ok=1 span=4095
+size 5000: round=5120 alloc_size=5120 owned=1 start_ok=1 span=5119
+size 65536: round=65536 alloc_size=65536 owned=1 start_ok=1 span=65535
+size 70000: round=131072 alloc_size=131072 owned=1 start_ok=1 span=131071
+size 1048576: round=1048576 alloc_size=1048576 owned=1 start_ok=1 span=1048575
+aligned_size(128,160)=256
+aligned_size(64,10)=64
+aligned 16: mod=0 size_ok=1
+aligned 64: mod=0 size_ok=1
+aligned 256: mod=0 size_ok=1
+aligned 4096: mod=0 size_ok=1
+zeroed alloc: nonzero=0
+memcpy: snmalloc checked memcpy: known answer (0)

@@ -1,0 +1,9 @@
+project: savantenvs/snmalloc
+target: fuzz_memcpy_align
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_memcpy_align/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_memcpy_align
+    libfuzzer: true
+    timeout: 5

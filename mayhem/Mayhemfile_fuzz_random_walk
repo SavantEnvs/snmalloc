@@ -1,0 +1,9 @@
+project: savantenvs/snmalloc
+target: fuzz_random_walk
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_random_walk/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_random_walk
+    libfuzzer: true
+    timeout: 5
